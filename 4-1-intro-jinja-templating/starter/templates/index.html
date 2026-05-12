@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <h1>Welcome, {{user.username}}!</h1>
+    <ul>
+        {% for item in items %}
+        <li>{{item | capitalize }}</li>
+        {% endfor %}
+    </ul>
+
+    {% endif %}
+</body>
+
+</html>
